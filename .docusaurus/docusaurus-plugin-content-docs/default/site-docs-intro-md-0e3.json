@@ -15,8 +15,12 @@
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Integrations",
+    "permalink": "/integr8-docs/docs/integrations"
+  },
   "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/integr8-docs/docs/category/tutorial---basics"
+    "title": "How To - Advanced Guides",
+    "permalink": "/integr8-docs/docs/category/how-to---advanced-guides"
   }
 }

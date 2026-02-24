@@ -18,5 +18,9 @@
   "previous": {
     "title": "Manage Docs Versions",
     "permalink": "/integr8-docs/docs/tutorial-extras/manage-docs-versions"
+  },
+  "next": {
+    "title": "Alert Management",
+    "permalink": "/integr8-docs/docs/category/alert-management"
   }
 }

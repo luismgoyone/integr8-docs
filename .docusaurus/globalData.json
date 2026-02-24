@@ -8,11 +8,406 @@
           "label": "Next",
           "isLast": true,
           "path": "/integr8-docs/docs",
-          "mainDocId": "intro",
+          "mainDocId": "integrations",
           "docs": [
+            {
+              "id": "alert-management/index",
+              "path": "/integr8-docs/docs/alert-management/alert-management/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "alert-management/notifications-and-alerts",
+              "path": "/integr8-docs/docs/alert-management/notifications-and-alerts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "alert-management/rejection-rate-alert",
+              "path": "/integr8-docs/docs/alert-management/rejection-rate-alert",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "alert-management/total-volume-count",
+              "path": "/integr8-docs/docs/alert-management/total-volume-count",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "alert-management/traffic-increase-or-decrease",
+              "path": "/integr8-docs/docs/alert-management/traffic-increase-or-decrease",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developers/api-documentation",
+              "path": "/integr8-docs/docs/developers/api-documentation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developers/index",
+              "path": "/integr8-docs/docs/developers/developers/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developers/parameter-list",
+              "path": "/integr8-docs/docs/developers/parameter-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developers/platform-migration-assistant",
+              "path": "/integr8-docs/docs/developers/platform-migration-assistant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developers/server-ip-white-list",
+              "path": "/integr8-docs/docs/developers/server-ip-white-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/click-flooding",
+              "path": "/integr8-docs/docs/fraud-prevention/click-flooding",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/click-spam",
+              "path": "/integr8-docs/docs/fraud-prevention/click-spam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/compliance-checks",
+              "path": "/integr8-docs/docs/fraud-prevention/compliance-checks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/conversion-rate-filter",
+              "path": "/integr8-docs/docs/fraud-prevention/conversion-rate-filter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/conversion-rejection-threshold",
+              "path": "/integr8-docs/docs/fraud-prevention/conversion-rejection-threshold",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/data-validation",
+              "path": "/integr8-docs/docs/fraud-prevention/data-validation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/device-anomaly-detection",
+              "path": "/integr8-docs/docs/fraud-prevention/device-anomaly-detection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/device-id-check",
+              "path": "/integr8-docs/docs/fraud-prevention/device-id-check",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/duplicate-user-detection",
+              "path": "/integr8-docs/docs/fraud-prevention/duplicate-user-detection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/emulator-and-bots",
+              "path": "/integr8-docs/docs/fraud-prevention/emulator-and-bots",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/index",
+              "path": "/integr8-docs/docs/fraud-prevention/fraud-prevention/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/isp-filter",
+              "path": "/integr8-docs/docs/fraud-prevention/isp-filter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/keyword-filter",
+              "path": "/integr8-docs/docs/fraud-prevention/keyword-filter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/low-session-time-anomaly",
+              "path": "/integr8-docs/docs/fraud-prevention/low-session-time-anomaly",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/session-time-filter",
+              "path": "/integr8-docs/docs/fraud-prevention/session-time-filter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/sub-id-validity-check",
+              "path": "/integr8-docs/docs/fraud-prevention/sub-id-validity-check",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/third-party-rejection",
+              "path": "/integr8-docs/docs/fraud-prevention/third-party-rejection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/vpn-and-residential-proxy-detection",
+              "path": "/integr8-docs/docs/fraud-prevention/vpn-and-residential-proxy-detection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fraud-prevention/wrong-install-time",
+              "path": "/integr8-docs/docs/fraud-prevention/wrong-install-time",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/advertiser-setup",
+              "path": "/integr8-docs/docs/getting-started/advertiser-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/data-privacy",
+              "path": "/integr8-docs/docs/getting-started/data-privacy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/global-tracking-settings",
+              "path": "/integr8-docs/docs/getting-started/global-tracking-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/how-to-reach-support",
+              "path": "/integr8-docs/docs/getting-started/how-to-reach-support",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/index",
+              "path": "/integr8-docs/docs/getting-started/getting-started/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/organization",
+              "path": "/integr8-docs/docs/getting-started/organization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/organization-billing",
+              "path": "/integr8-docs/docs/getting-started/organization-billing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/server-uptime",
+              "path": "/integr8-docs/docs/getting-started/server-uptime",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/user-management",
+              "path": "/integr8-docs/docs/getting-started/user-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/white-label-dashboard",
+              "path": "/integr8-docs/docs/getting-started/white-label-dashboard",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-advanced-guides/conversion-rejection-endpoint",
+              "path": "/integr8-docs/docs/how-to-advanced-guides/conversion-rejection-endpoint",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-advanced-guides/data-privacy-features",
+              "path": "/integr8-docs/docs/how-to-advanced-guides/data-privacy-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-advanced-guides/index",
+              "path": "/integr8-docs/docs/how-to-advanced-guides/how-to-advanced-guides/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-advanced-guides/offer-url-parser",
+              "path": "/integr8-docs/docs/how-to-advanced-guides/offer-url-parser",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations",
+              "path": "/integr8-docs/docs/integrations",
+              "sidebar": "tutorialSidebar"
+            },
             {
               "id": "intro",
               "path": "/integr8-docs/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/blocked-subids",
+              "path": "/integr8-docs/docs/offers/blocked-subids",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/conversion-tracking",
+              "path": "/integr8-docs/docs/offers/conversion-tracking",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/coupon-codes",
+              "path": "/integr8-docs/docs/offers/coupon-codes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/custom-payouts",
+              "path": "/integr8-docs/docs/offers/custom-payouts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/custom-tracking-domain",
+              "path": "/integr8-docs/docs/offers/custom-tracking-domain",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/events-tracking",
+              "path": "/integr8-docs/docs/offers/events-tracking",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/fraud-detection",
+              "path": "/integr8-docs/docs/offers/fraud-detection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/index",
+              "path": "/integr8-docs/docs/offers/offers/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/javascript-tracking-link",
+              "path": "/integr8-docs/docs/offers/javascript-tracking-link",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/landing-pages",
+              "path": "/integr8-docs/docs/offers/landing-pages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/offer-cappings",
+              "path": "/integr8-docs/docs/offers/offer-cappings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/offer-setup",
+              "path": "/integr8-docs/docs/offers/offer-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/product-feeds",
+              "path": "/integr8-docs/docs/offers/product-feeds",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/revenue-and-payout",
+              "path": "/integr8-docs/docs/offers/revenue-and-payout",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/smart-link",
+              "path": "/integr8-docs/docs/offers/smart-link",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/targeting",
+              "path": "/integr8-docs/docs/offers/targeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "offers/tracking-link",
+              "path": "/integr8-docs/docs/offers/tracking-link",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "postback-manager/affiliate-postback-setup",
+              "path": "/integr8-docs/docs/postback-manager/affiliate-postback-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "postback-manager/connect-conversion-data-with-your-crm",
+              "path": "/integr8-docs/docs/postback-manager/connect-conversion-data-with-your-crm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "postback-manager/index",
+              "path": "/integr8-docs/docs/postback-manager/postback-manager/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "postback-manager/postback-logs",
+              "path": "/integr8-docs/docs/postback-manager/postback-logs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "postback-manager/postback-types",
+              "path": "/integr8-docs/docs/postback-manager/postback-types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "publishers/index",
+              "path": "/integr8-docs/docs/publishers/publishers/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "publishers/publisher-billing",
+              "path": "/integr8-docs/docs/publishers/publisher-billing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "publishers/publisher-payments",
+              "path": "/integr8-docs/docs/publishers/publisher-payments",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "publishers/publisher-setup",
+              "path": "/integr8-docs/docs/publishers/publisher-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reports-and-analytics/click-reports",
+              "path": "/integr8-docs/docs/reports-and-analytics/click-reports",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reports-and-analytics/conversion-and-events-report",
+              "path": "/integr8-docs/docs/reports-and-analytics/conversion-and-events-report",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reports-and-analytics/download-center",
+              "path": "/integr8-docs/docs/reports-and-analytics/download-center",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reports-and-analytics/export-reports",
+              "path": "/integr8-docs/docs/reports-and-analytics/export-reports",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reports-and-analytics/index",
+              "path": "/integr8-docs/docs/reports-and-analytics/reports-and-analytics/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reports-and-analytics/overview-reports",
+              "path": "/integr8-docs/docs/reports-and-analytics/overview-reports",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reports-and-analytics/server-logs",
+              "path": "/integr8-docs/docs/reports-and-analytics/server-logs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reports-and-analytics/shared-reports",
+              "path": "/integr8-docs/docs/reports-and-analytics/shared-reports",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reports-and-analytics/traffic-insights",
+              "path": "/integr8-docs/docs/reports-and-analytics/traffic-insights",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -56,13 +451,58 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/how-to---advanced-guides",
+              "path": "/integr8-docs/docs/category/how-to---advanced-guides",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial---basics",
               "path": "/integr8-docs/docs/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/developers",
+              "path": "/integr8-docs/docs/category/developers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial---extras",
               "path": "/integr8-docs/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/alert-management",
+              "path": "/integr8-docs/docs/category/alert-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/reports-and-analytics",
+              "path": "/integr8-docs/docs/category/reports-and-analytics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/postback-manager",
+              "path": "/integr8-docs/docs/category/postback-manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/publishers",
+              "path": "/integr8-docs/docs/category/publishers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/offers",
+              "path": "/integr8-docs/docs/category/offers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/getting-started",
+              "path": "/integr8-docs/docs/category/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/fraud-prevention",
+              "path": "/integr8-docs/docs/category/fraud-prevention",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -70,8 +510,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/integr8-docs/docs/intro",
-                "label": "intro"
+                "path": "/integr8-docs/docs/integrations",
+                "label": "integrations"
               }
             }
           }
