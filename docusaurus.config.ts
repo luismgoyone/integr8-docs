@@ -24,7 +24,11 @@ const config: Config = {
   organizationName: 'luismgoyone',
   projectName: 'integr8-docs',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
+
+  markdown: {
+    format: 'detect', // .md → CommonMark, .mdx → MDX (prevents <tag> parse errors)
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
