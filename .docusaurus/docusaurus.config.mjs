@@ -28,10 +28,10 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "url": "https://luismgoyone.github.io",
+  "baseUrl": "/integr8-docs/",
+  "organizationName": "luismgoyone",
+  "projectName": "integr8-docs",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
@@ -46,8 +46,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "./sidebars.ts"
         },
         "blog": {
           "showReadingTime": true,
@@ -58,7 +57,6 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -95,7 +93,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/luismgoyone/integr8-docs",
           "label": "GitHub",
           "position": "right"
         }
@@ -140,7 +138,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/luismgoyone/integr8-docs"
             }
           ]
         }

@@ -3,190 +3,190 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/integr8-docs/__docusaurus/debug',
+    component: ComponentCreator('/integr8-docs/__docusaurus/debug', 'f37'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    path: '/integr8-docs/__docusaurus/debug/config',
+    component: ComponentCreator('/integr8-docs/__docusaurus/debug/config', '436'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    path: '/integr8-docs/__docusaurus/debug/content',
+    component: ComponentCreator('/integr8-docs/__docusaurus/debug/content', '563'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    path: '/integr8-docs/__docusaurus/debug/globalData',
+    component: ComponentCreator('/integr8-docs/__docusaurus/debug/globalData', 'f44'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    path: '/integr8-docs/__docusaurus/debug/metadata',
+    component: ComponentCreator('/integr8-docs/__docusaurus/debug/metadata', '29d'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    path: '/integr8-docs/__docusaurus/debug/registry',
+    component: ComponentCreator('/integr8-docs/__docusaurus/debug/registry', '9d4'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    path: '/integr8-docs/__docusaurus/debug/routes',
+    component: ComponentCreator('/integr8-docs/__docusaurus/debug/routes', '20f'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'b2f'),
+    path: '/integr8-docs/blog',
+    component: ComponentCreator('/integr8-docs/blog', 'b8f'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
+    path: '/integr8-docs/blog/archive',
+    component: ComponentCreator('/integr8-docs/blog/archive', 'bec'),
     exact: true
   },
   {
-    path: '/blog/authors',
-    component: ComponentCreator('/blog/authors', '0b7'),
+    path: '/integr8-docs/blog/authors',
+    component: ComponentCreator('/integr8-docs/blog/authors', '33c'),
     exact: true
   },
   {
-    path: '/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
+    path: '/integr8-docs/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/integr8-docs/blog/authors/all-sebastien-lorber-articles', '2c9'),
     exact: true
   },
   {
-    path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
+    path: '/integr8-docs/blog/authors/yangshun',
+    component: ComponentCreator('/integr8-docs/blog/authors/yangshun', '7c9'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '89a'),
+    path: '/integr8-docs/blog/first-blog-post',
+    component: ComponentCreator('/integr8-docs/blog/first-blog-post', '0b6'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '9ad'),
+    path: '/integr8-docs/blog/long-blog-post',
+    component: ComponentCreator('/integr8-docs/blog/long-blog-post', 'ced'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
+    path: '/integr8-docs/blog/mdx-blog-post',
+    component: ComponentCreator('/integr8-docs/blog/mdx-blog-post', 'ea9'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '287'),
+    path: '/integr8-docs/blog/tags',
+    component: ComponentCreator('/integr8-docs/blog/tags', '334'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '704'),
+    path: '/integr8-docs/blog/tags/docusaurus',
+    component: ComponentCreator('/integr8-docs/blog/tags/docusaurus', 'bde'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '858'),
+    path: '/integr8-docs/blog/tags/facebook',
+    component: ComponentCreator('/integr8-docs/blog/tags/facebook', 'ef5'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '299'),
+    path: '/integr8-docs/blog/tags/hello',
+    component: ComponentCreator('/integr8-docs/blog/tags/hello', '9c1'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '00d'),
+    path: '/integr8-docs/blog/tags/hola',
+    component: ComponentCreator('/integr8-docs/blog/tags/hola', '3b1'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'd2b'),
+    path: '/integr8-docs/blog/welcome',
+    component: ComponentCreator('/integr8-docs/blog/welcome', '6b9'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
+    path: '/integr8-docs/markdown-page',
+    component: ComponentCreator('/integr8-docs/markdown-page', '5d7'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '733'),
+    path: '/integr8-docs/docs',
+    component: ComponentCreator('/integr8-docs/docs', 'a31'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '7e6'),
+        path: '/integr8-docs/docs',
+        component: ComponentCreator('/integr8-docs/docs', '20e'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'ba6'),
+            path: '/integr8-docs/docs',
+            component: ComponentCreator('/integr8-docs/docs', '544'),
             routes: [
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
+                path: '/integr8-docs/docs/category/tutorial---basics',
+                component: ComponentCreator('/integr8-docs/docs/category/tutorial---basics', '71a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
+                path: '/integr8-docs/docs/category/tutorial---extras',
+                component: ComponentCreator('/integr8-docs/docs/category/tutorial---extras', '81f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/integr8-docs/docs/intro',
+                component: ComponentCreator('/integr8-docs/docs/intro', 'ad9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
+                path: '/integr8-docs/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/integr8-docs/docs/tutorial-basics/congratulations', '2b6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
+                path: '/integr8-docs/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/integr8-docs/docs/tutorial-basics/create-a-blog-post', '7fb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
+                path: '/integr8-docs/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/integr8-docs/docs/tutorial-basics/create-a-document', '44f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
+                path: '/integr8-docs/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/integr8-docs/docs/tutorial-basics/create-a-page', 'aa9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
+                path: '/integr8-docs/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/integr8-docs/docs/tutorial-basics/deploy-your-site', '71c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
+                path: '/integr8-docs/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/integr8-docs/docs/tutorial-basics/markdown-features', '836'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
+                path: '/integr8-docs/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/integr8-docs/docs/tutorial-extras/manage-docs-versions', '435'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
+                path: '/integr8-docs/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/integr8-docs/docs/tutorial-extras/translate-your-site', 'b0b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -197,8 +197,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'e5f'),
+    path: '/integr8-docs/',
+    component: ComponentCreator('/integr8-docs/', '5ab'),
     exact: true
   },
   {
