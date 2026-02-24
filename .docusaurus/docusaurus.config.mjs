@@ -80,24 +80,17 @@ export default {
       "disableSwitch": false
     },
     "navbar": {
-      "title": "Integr8 Docs",
+      "title": "",
       "logo": {
         "alt": "Integr8 Logo",
-        "src": "https://integr8.co/wp-content/uploads/2024/06/Integr8-_-website.webp",
-        "href": "https://integr8.co",
-        "target": "_blank"
+        "src": "https://integr8.co/wp-content/uploads/2024/06/Integr8-_-website.webp"
       },
       "items": [
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Docs"
-        },
-        {
-          "href": "https://integr8.co",
-          "label": "integr8.co",
-          "position": "right"
+          "label": "Documentation"
         }
       ],
       "hideOnScroll": false
