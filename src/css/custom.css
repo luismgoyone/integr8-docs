@@ -1,30 +1,85 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Integr8 Docs — Global Styles
+ * Primary brand color: #0693e3 (Integr8 blue)
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #0693e3;
+  --ifm-color-primary-dark: #0584cc;
+  --ifm-color-primary-darker: #057dc1;
+  --ifm-color-primary-darkest: #04679f;
+  --ifm-color-primary-light: #1fa0e6;
+  --ifm-color-primary-lighter: #2aa5e8;
+  --ifm-color-primary-lightest: #4db5ed;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.08);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #4db5ed;
+  --ifm-color-primary-dark: #2aa5e8;
+  --ifm-color-primary-darker: #1fa0e6;
+  --ifm-color-primary-darkest: #0693e3;
+  --ifm-color-primary-light: #70c5f0;
+  --ifm-color-primary-lighter: #83cdf2;
+  --ifm-color-primary-lightest: #a8dcf6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-background-color: #1b1b1d;
+}
+
+/* ── Hero ── */
+.hero--integr8 {
+  background: linear-gradient(135deg, #0693e3 0%, #054a7c 100%);
+  padding: 5rem 0 4rem;
+  text-align: center;
+}
+
+.hero--integr8 .hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero--integr8 .hero__subtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 600px;
+  margin: 1rem auto 2rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 996px) {
+  .hero--integr8 {
+    padding: 3rem 1.5rem;
+  }
+  .hero--integr8 .hero__title {
+    font-size: 2rem;
+  }
+}
+
+/* ── Feature cards ── */
+.features {
+  padding: 4rem 0;
+  background: var(--ifm-background-color);
+}
+
+.featureCard {
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  height: 100%;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.featureCard:hover {
+  box-shadow: 0 4px 20px rgba(6, 147, 227, 0.12);
+  border-color: var(--ifm-color-primary-light);
+}
+
+.featureIcon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }

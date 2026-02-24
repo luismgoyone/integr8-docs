@@ -42,206 +42,6 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/integr8-docs/blog-b8f": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blogf-4-f-cd7"
-      },
-      {
-        "content": "content---blog-871-381"
-      },
-      {
-        "content": "content---blog-925-e00"
-      }
-    ],
-    "__props": "__props---integr-8-docs-blog-4-c-2-9b9"
-  },
-  "/integr8-docs/blog/archive-bec": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "__props": "__props---integr-8-docs-blog-archive-981-e1b"
-  },
-  "/integr8-docs/blog/authors-33c": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
-      },
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---integr-8-docs-blog-authors-043-fea"
-  },
-  "/integr8-docs/blog/authors/all-sebastien-lorber-articles-2c9": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
-      },
-      "plugin": "plugin---blog-369-22e"
-    },
-    "items": [
-      {
-        "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blogf-4-f-cd7"
-      },
-      {
-        "content": "content---blog-925-e00"
-      }
-    ],
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---integr-8-docs-blog-authors-all-sebastien-lorber-articles-34-b-fe5"
-  },
-  "/integr8-docs/blog/authors/yangshun-7c9": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
-      },
-      "plugin": "plugin---blog-369-22e"
-    },
-    "items": [
-      {
-        "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blog-871-381"
-      },
-      {
-        "content": "content---blog-925-e00"
-      }
-    ],
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---integr-8-docs-blog-authors-yangshunb-39-e43"
-  },
-  "/integr8-docs/blog/first-blog-post-0b6": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
-      },
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-first-blog-poste-27-4a1"
-  },
-  "/integr8-docs/blog/long-blog-post-ced": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
-      },
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-long-blog-post-736-bc7"
-  },
-  "/integr8-docs/blog/mdx-blog-post-ea9": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
-      },
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-mdx-blog-post-593-37b"
-  },
-  "/integr8-docs/blog/tags-334": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---integr-8-docs-blog-tags-6-fe-9f1"
-  },
-  "/integr8-docs/blog/tags/docusaurus-bde": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blogf-4-f-cd7"
-      },
-      {
-        "content": "content---blog-871-381"
-      },
-      {
-        "content": "content---blog-925-e00"
-      }
-    ],
-    "__props": "__props---integr-8-docs-blog-tags-docusaurus-45-d-eee"
-  },
-  "/integr8-docs/blog/tags/facebook-ef5": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-766-e3c"
-      }
-    ],
-    "__props": "__props---integr-8-docs-blog-tags-facebooke-4-a-0a6"
-  },
-  "/integr8-docs/blog/tags/hello-9c1": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-766-e3c"
-      },
-      {
-        "content": "content---blog-871-381"
-      }
-    ],
-    "__props": "__props---integr-8-docs-blog-tags-hello-338-8da"
-  },
-  "/integr8-docs/blog/tags/hola-3b1": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-925-e00"
-      }
-    ],
-    "__props": "__props---integr-8-docs-blog-tags-hola-8-d-0-efb"
-  },
-  "/integr8-docs/blog/welcome-6b9": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
-      },
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomed-9-f-ffb"
-  },
   "/integr8-docs/markdown-page-5d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
@@ -249,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/integr8-docs/docs-fa9": {
+  "/integr8-docs/docs-57c": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/integr8-docs/docs-265": {
+  "/integr8-docs/docs-575": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---integr-8-docs-docsf-36-5c0"
   },
-  "/integr8-docs/docs-853": {
+  "/integr8-docs/docs-308": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/integr8-docs/docs/alert-management/alert-management/index-29f": {
@@ -317,14 +117,6 @@
   "/integr8-docs/docs/category/reports-and-analytics-448": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---integr-8-docs-docs-category-reports-and-analytics-150-aa5"
-  },
-  "/integr8-docs/docs/category/tutorial---basics-71a": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---integr-8-docs-docs-category-tutorial-basics-447-e09"
-  },
-  "/integr8-docs/docs/category/tutorial---extras-81f": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---integr-8-docs-docs-category-tutorial-extras-192-6ce"
   },
   "/integr8-docs/docs/developers/api-documentation-293": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -482,10 +274,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---integr-8-docs-docs-integrationsfec-262"
   },
-  "/integr8-docs/docs/intro-ad9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
-  },
   "/integr8-docs/docs/offers/blocked-subids-e7d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---integr-8-docs-docs-offers-blocked-subids-2-de-620"
@@ -625,38 +413,6 @@
   "/integr8-docs/docs/reports-and-analytics/traffic-insights-c6a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---integr-8-docs-docs-reports-and-analytics-traffic-insightsaaa-bc7"
-  },
-  "/integr8-docs/docs/tutorial-basics/congratulations-2b6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-822-958"
-  },
-  "/integr8-docs/docs/tutorial-basics/create-a-blog-post-7fb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
-  },
-  "/integr8-docs/docs/tutorial-basics/create-a-document-44f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
-  },
-  "/integr8-docs/docs/tutorial-basics/create-a-page-aa9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
-  },
-  "/integr8-docs/docs/tutorial-basics/deploy-your-site-71c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
-  },
-  "/integr8-docs/docs/tutorial-basics/markdown-features-836": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
-  },
-  "/integr8-docs/docs/tutorial-extras/manage-docs-versions-435": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
-  },
-  "/integr8-docs/docs/tutorial-extras/translate-your-site-b0b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
   },
   "/integr8-docs/-5ab": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

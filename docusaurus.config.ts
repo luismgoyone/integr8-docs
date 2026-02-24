@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Integr8 Docs',
+  tagline: 'Scale and Grow with integrated data privacy, native fraud prevention and AI-enabled automation.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -45,16 +45,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -69,22 +60,23 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Integr8 Docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Integr8 Logo',
+        src: 'https://integr8.co/wp-content/uploads/2024/06/Integr8-_-website.webp',
+        href: 'https://integr8.co',
+        target: '_blank',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/luismgoyone/integr8-docs',
-          label: 'GitHub',
+          href: 'https://integr8.co',
+          label: 'integr8.co',
           position: 'right',
         },
       ],
@@ -93,46 +85,31 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentation',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
+            {label: 'Getting Started', to: '/docs/getting-started'},
+            {label: 'Offers', to: '/docs/offers'},
+            {label: 'Fraud Prevention', to: '/docs/fraud-prevention'},
+            {label: 'API Reference', to: '/docs/developers/api-documentation'},
           ],
         },
         {
-          title: 'Community',
+          title: 'Platform',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
+            {label: 'Reports & Analytics', to: '/docs/reports-and-analytics'},
+            {label: 'Postback Manager', to: '/docs/postback-manager'},
+            {label: 'Publishers', to: '/docs/publishers'},
+            {label: 'Alert Management', to: '/docs/alert-management'},
           ],
         },
         {
-          title: 'More',
+          title: 'Company',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/luismgoyone/integr8-docs',
-            },
+            {label: 'Website', href: 'https://integr8.co'},
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Integr8. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,

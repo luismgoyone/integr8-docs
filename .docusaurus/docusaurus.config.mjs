@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Integr8 Docs",
+  "tagline": "Scale and Grow with integrated data privacy, native fraud prevention and AI-enabled automation.",
   "favicon": "img/favicon.ico",
   "future": {
     "v4": {
@@ -32,7 +32,24 @@ export default {
   "baseUrl": "/integr8-docs/",
   "organizationName": "luismgoyone",
   "projectName": "integr8-docs",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
+  "markdown": {
+    "format": "detect",
+    "mermaid": false,
+    "emoji": true,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
+    }
+  },
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -48,19 +65,7 @@ export default {
         "docs": {
           "sidebarPath": "./sidebars.ts"
         },
-        "blog": {
-          "showReadingTime": true,
-          "feedOptions": {
-            "type": [
-              "rss",
-              "atom"
-            ],
-            "xslt": true
-          },
-          "onInlineTags": "warn",
-          "onInlineAuthors": "warn",
-          "onUntruncatedBlogPosts": "warn"
-        },
+        "blog": false,
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -75,26 +80,23 @@ export default {
       "disableSwitch": false
     },
     "navbar": {
-      "title": "My Site",
+      "title": "Integr8 Docs",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "Integr8 Logo",
+        "src": "https://integr8.co/wp-content/uploads/2024/06/Integr8-_-website.webp",
+        "href": "https://integr8.co",
+        "target": "_blank"
       },
       "items": [
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Docs"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/luismgoyone/integr8-docs",
-          "label": "GitHub",
+          "href": "https://integr8.co",
+          "label": "integr8.co",
           "position": "right"
         }
       ],
@@ -104,46 +106,58 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Documentation",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "Getting Started",
+              "to": "/docs/getting-started"
+            },
+            {
+              "label": "Offers",
+              "to": "/docs/offers"
+            },
+            {
+              "label": "Fraud Prevention",
+              "to": "/docs/fraud-prevention"
+            },
+            {
+              "label": "API Reference",
+              "to": "/docs/developers/api-documentation"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "Platform",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Reports & Analytics",
+              "to": "/docs/reports-and-analytics"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "Postback Manager",
+              "to": "/docs/postback-manager"
             },
             {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
+              "label": "Publishers",
+              "to": "/docs/publishers"
+            },
+            {
+              "label": "Alert Management",
+              "to": "/docs/alert-management"
             }
           ]
         },
         {
-          "title": "More",
+          "title": "Company",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/luismgoyone/integr8-docs"
+              "label": "Website",
+              "href": "https://integr8.co"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2026 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2026 Integr8. All rights reserved."
     },
     "prism": {
       "theme": {
@@ -381,22 +395,5 @@ export default {
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
-  "markdown": {
-    "format": "mdx",
-    "mermaid": false,
-    "emoji": true,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
-    },
-    "hooks": {
-      "onBrokenMarkdownLinks": "warn",
-      "onBrokenMarkdownImages": "throw"
-    }
-  }
+  "noIndex": false
 };
